@@ -1,0 +1,28 @@
+
+// Make a Calculator! using prompt(), and variables, make a program that does the following:
+var firstNumber = prompt("Please provide the first number"); 
+var secondNumber = prompt("Please provide the second number"); 
+alert(Number(firstNumber) + Number(secondNumber));
+
+var num1 = prompt("Enter first number");
+var num2 = prompt("Enter seocnd number");
+var operation = prompt("choose one operation \n1.Add\n2.subtract\n3.divide\n4.multiply");
+if(operation === "1") {
+ var result = Number(num1) + Number(num2);
+ alert("Result of your Arithmetic operation is : "+result);
+} 
+else if (operation === "2") {
+    var result = Number(num1) - Number(num2);             
+    alert("Result of your Arithmetic operation is : "+result);
+}
+else if(operation === "3") {
+    var result =Number(num1) / Number(num2);
+    alert("Result of your Arithmetic operation is : "+result);
+}
+else if(operation === "4") {
+    var result = Number(num1) * Number(num2);
+    alert("Result of your Arithmetic operation is : "+result);
+}
+else {
+    alert("Invalid input!");
+}//My Own Solution
